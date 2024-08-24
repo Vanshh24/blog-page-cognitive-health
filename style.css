@@ -1,1 +1,132 @@
+.nav-menu-icons button {
+    border: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
 
+section {
+    border: 1px solid;
+    background-color: white;
+    width: 100vw;
+}
+
+header {
+    background-color: rgb(224, 223, 220);
+    top: 0;
+    z-index: 1;
+}
+
+body {
+    background-color: rgb(224, 223, 220);
+    overflow-x: hidden;
+}
+
+.sec-text p:not(.bold-p) {
+    margin-block: 0;
+    font-size: 80%;
+}
+
+.sec-text p {
+    margin-inline: auto;
+}
+
+section button {
+    border: none;
+    background-color: transparent;
+}
+
+.blog-sec button {
+    border: none;
+    background: transparent;
+    padding-inline: 20px;
+    padding-block: 16px;
+    font-weight: bold;
+    opacity: 50%;
+}
+
+.blog-sec button:hover {
+    opacity: 100%;
+    transition: opacity .2s linear;
+}
+
+.blog-sec button:focus {
+    background-color: white;
+    opacity: 100%;
+}
+
+#InputEmail1:focus {
+    border: 2px solid black !important;
+    opacity: 100% !important;
+    outline: none;
+}
+
+input:focus + .place-holder {
+    top: -10px;
+    font-size: 70%;
+    transition: .2s;
+}
+
+
+.grid-cols {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-text {
+    display: flex;
+    justify-content: center;
+}
+
+.img-hover:hover {
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+}
+
+.publish-date:hover {
+    cursor: auto;
+    color: black !important;
+    transition: color .4s;
+}
+
+.submit-btn {
+    background-color: black;
+}
+
+.subscribe-btn:hover {
+    background-color: #ffcc33!important;
+    transition: .5s;
+}
+
+.submit-btn:hover {
+    background-color: rgb(63, 63, 63);
+    border-color: rgb(63, 63, 63);
+    transition: background-color .2s linear;
+}
+
+.anchor-text {
+    text-decoration: none;
+    color: black;
+}
+
+.category::before {
+    content: "Bone & Muscle Health";
+    border-radius: 20px;
+    padding-block: 2px;
+    padding-inline: 5px;
+    font-size: 75%;
+    left:0;
+    background-color: blueviolet;
+}
+
+.card-title h2{
+    font-weight: bolder;
+    line-height: 110%;
+    color: black;
+}
+
+.card-title h4{
+    font-weight: bolder;
+    font-size: x-large;
+    line-height: 110%;
+}

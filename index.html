@@ -1,1 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="fw-bold position-sticky">
+    <nav class="navbar navbar-expand-lg py-4">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-5" href="#">Logo</a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav d-flex gap-3 mx-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Gut Microbiome Test</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Shop
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Category
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Health Concerns
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Articles
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                About Us
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Help</a>
+            </li>
+          </ul>
+          <div class="nav-menu-icons d-flex ms-auto mx-5 gap-4">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button><i class="fa-regular fa-user"></i></button>
+            <button><i class="fa-solid fa-cart-shopping"></i></button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="py-2 d-flex justify-content-around px-4" style="border: none;">
+    <button class="d-flex align-items-center">
+      <img src="https://cdn.shopify.com/s/files/1/0605/3445/6508/files/noun-target-6697003.svg?v=1715931729"
+        alt="noun-target" height="30" width="30" loading="”lazy”">
+      <div class="px-1 d-flex flex-column">
+        <p class="fw-bold my-0">
+          Targets the root causes of Aging,
+          <img src="https://th.bing.com/th/id/OIP.89a4Z7Ly_oj1MRGEG4S6ewHaHa?rs=1&pid=ImgDetMain" width="12">
+        </p>
+        <p class="my-0 mx-auto" style="font-size: 80%;">not just superficial symptoms</p>
+      </div>
+    </button>
+    <button class="d-flex align-items-center flex-column btn-2">
+      <div class="d-flex flex-column my-auto">
+        <p class="fw-bold mb-0">Suitable for all dietary requirements <img
+            src="https://th.bing.com/th/id/OIP.89a4Z7Ly_oj1MRGEG4S6ewHaHa?rs=1&pid=ImgDetMain" width="12"></p>
+        <div class="d-flex flex-nowrap justify-content-center">
+          <img src="https://cdn.shopify.com/s/files/1/0605/3445/6508/files/99f102e2.png?v=1715931099" alt="" height=""
+            width="40" loading="”lazy”">
+          <img src="https://cdn.shopify.com/s/files/1/0605/3445/6508/files/02b0d062.png?v=1715931099" alt="" height=""
+            width="40" loading="”lazy”">
+          <img src="https://cdn.shopify.com/s/files/1/0605/3445/6508/files/a036c55a.png?v=1715931099" alt="" height=""
+            width="40" loading="”lazy”">
+          <img src="https://cdn.shopify.com/s/files/1/0605/3445/6508/files/d4e28b67.png?v=1715931099" alt="" height=""
+            width="40" loading="”lazy”">
+          <img src="https://cdn.shopify.com/s/files/1/0605/3445/6508/files/51c52703.png?v=1715931099" alt="" height=""
+            width="40" loading="”lazy”">
+          <img src="https://cdn.shopify.com/s/files/1/0605/3445/6508/files/9d140d5e.png?v=1715931099" alt="" height=""
+            width="40" loading="”lazy”">
+        </div>
+      </div>
+    </button>
+    <button class="d-flex align-items-center">
+      <img src="https://cdn.shopify.com/s/files/1/0605/3445/6508/files/noun-star-6701158.svg?v=1715931099"
+        alt="noun-star" height="" width="30" loading="”lazy”">
+      <div class="d-flex flex-column px-2">
+        <p class="fw-bold my-0">
+          Only the finest ingredients
+          <img src="https://th.bing.com/th/id/OIP.89a4Z7Ly_oj1MRGEG4S6ewHaHa?rs=1&pid=ImgDetMain" width="12">
+        </p>
+        <p class="my-0" style="font-size: 80%;">and the highest manufacturing standards</p>
+      </div>
+    </button>
+    <button class="d-flex align-items-center">
+      <img src="https://cdn.shopify.com/s/files/1/0605/3445/6508/files/liveCustomerSupport.svg?v=1715931098"
+        alt="liveCustomerSupport" height="30" width="30">
+      <div class="d-flex flex-column sec-text">
+        <p class="fw-bold bold-p my-0">
+          Live customer support
+        </p>
+        <p>+91-79-6946-9000</p>
+        <p>Monday to Saturday: 10am-6pm IST</p>
+      </div>
+    </button>
+  </section>
+
+  <main>
+    <a href="#"><img width="50" style="z-index: 3;"
+        src="https://www.silicon.co.uk/wp-content/uploads/2018/03/2000px-WhatsApp.svg_.png"
+        class="position-fixed bottom-0 my-3 mx-4"></a>
+    <div class="d-flex flex-column gap-4 justify-content-center align-items-center" style="height: 65vh;">
+      <h1 class="fw-bold" style="font-size: 350%;">Health and Diseases</h1>
+      <p>Get access to our latest news by signing up for our news letter</p>
+      <div class="d-flex flex-row position-relative">
+        <input type="email"
+          class="shadow-none opacity-50 p-3 pe-5 mx-2 form-control bg-transparent border border-secondary "
+          id="InputEmail1">
+        <label class="opacity-50 place-holder position-absolute my-3 mx-4" style="cursor: auto;">E-mail</label>
+        <button class="submit-btn text-light d-flex flex-nowrap align-items-center px-4 py-2"
+          style="border: none; border-radius: 50px;"><i class="pe-2 fa-regular fa-envelope"></i><span
+            class="fw-bold">Submit</span></button>
+      </div>
+    </div>
+
+    <div class="blog-sec d-flex justify-content-center">
+      <button>All Posts</button>
+      <button>Bone & Muscle Health</button>
+      <button>Cardiovascular Health</button>
+      <button>Cognitive Health</button>
+      <button>Diabetes</button>
+      <button>DNA Repair</button>
+      <button>Eye Health</button>
+      <button>Immunity</button>
+    </div>
+
+    <div class="d-grid card-title" style="background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 41%, rgb(224, 223, 220) 100%);">
+      <div class="row border m-5"
+        style="height:90vh; background-color: rgb(224, 224, 224); border-radius: 10px !important;">
+        <div class="d-flex col-12 p-0">
+          <img class="col-8 img-fluid p-0"
+            src="//decodeage.com/cdn/shop/articles/The_Impact_of_Ageing_on_Bones_and_Muscles_Insights_into_Joint_Care.webp"
+            alt="Bone and muscle health"
+            style="object-fit: cover; border-top-left-radius: 10px; border-bottom-left-radius: 10px;">
+          <div class="col-4 d-flex vstack mx-5 align-items-start justify-content-center">
+            <p class="border px-2 py-1 fw-bold" style="background-color: rgb(202, 202, 201); border-radius: 100px;">Bone
+              & Muscle Health</p>
+            <a href="" class="text-decoration-none text-dark">
+              <h2 style="font-family: Metropolis-Regular, sans-serif;">The Impact of Ageing on Bones and Muscles: Insights into Joint Care</h2>
+            </a>
+            <p class="fs-5">Have you ever wondered how ageing affects your bones and muscles? Ageing and bone health, as
+              well as ageing and muscle health, are critical topics that impact everyone's quality of life.</p><br>
+            <a href="" class="text-decoration-none">
+              <p class="text-secondary publish-date" style="font-size: 90%;"><svg role="presentation" fill="none"
+                  focusable="false" stroke-width="1.2" width="16" height="16" class="mb-1" viewBox="0 0 16 16">
+                  <path d="M5.372 1v2.877M10.455 1v2.877" stroke="currentColor" stroke-linecap="round"></path>
+                  <path d="M14.338 7.632H1.497l.179-4.57 6.164-.448 6.497.448v4.57Z" fill="currentColor"
+                    fill-opacity=".12"></path>
+                  <path
+                    d="M1.224 12.073c.183 1.631 1.508 2.925 3.147 3.004a73.18 73.18 0 0 0 3.546.083c1.256 0 2.413-.028 3.546-.083 1.639-.079 2.964-1.374 3.146-3.004.124-1.099.225-2.224.225-3.37 0-1.147-.102-2.273-.225-3.371-.182-1.631-1.507-2.925-3.146-3.004a73.22 73.22 0 0 0-3.546-.083 73.22 73.22 0 0 0-3.546.083c-1.639.079-2.964 1.374-3.147 3.004C1.101 6.43 1 7.556 1 8.703c0 1.146.102 2.272.224 3.37ZM1.331 7.202h13.24"
+                    stroke="currentColor"></path>
+                </svg> May 27, 2024</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row ms-5">
+        <div class="card border-0 ps-0" style="width: 25rem; background-color: inherit;">
+          <a href="" class="position-relative">
+            <span class="position-absolute m-3 text-white fw-bold border-0 category"></span>
+            <img class="card-img-top" src="//decodeage.com/cdn/shop/articles/Myotonic_Dystrophy___The_Role_Of_NMN.webp">
+          </a>
+          <div class="card-body ps-0">
+            <a href="" class="anchor-text">
+              <h4>Myotonic Dystrophy & The Role Of NMN</h4>
+            </a>
+            <p class="card-text">What is Myotonic Dystrophy?
+              Myotonic dystrophy (DM) is a type of muscular dystrophy that impacts our muscles as well as several other
+              organs. It is a condition in which the muscle tissue weakens an...
+            </p>
+            <a href="" class="text-decoration-none">
+              <p class="text-secondary publish-date" style="font-size: 90%;"><svg role="presentation" fill="none"
+                  focusable="false" stroke-width="1.2" width="16" height="16" class="mb-1" viewBox="0 0 16 16">
+                  <path d="M5.372 1v2.877M10.455 1v2.877" stroke="currentColor" stroke-linecap="round"></path>
+                  <path d="M14.338 7.632H1.497l.179-4.57 6.164-.448 6.497.448v4.57Z" fill="currentColor"
+                    fill-opacity=".12"></path>
+                  <path
+                    d="M1.224 12.073c.183 1.631 1.508 2.925 3.147 3.004a73.18 73.18 0 0 0 3.546.083c1.256 0 2.413-.028 3.546-.083 1.639-.079 2.964-1.374 3.146-3.004.124-1.099.225-2.224.225-3.37 0-1.147-.102-2.273-.225-3.371-.182-1.631-1.507-2.925-3.146-3.004a73.22 73.22 0 0 0-3.546-.083 73.22 73.22 0 0 0-3.546.083c-1.639.079-2.964 1.374-3.147 3.004C1.101 6.43 1 7.556 1 8.703c0 1.146.102 2.272.224 3.37ZM1.331 7.202h13.24"
+                    stroke="currentColor"></path>
+                </svg> Mar 5, 2024</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-4 grid-cols">
+          <div class="card border-0 ps-0" style="width: 25rem; background-color: inherit;">
+            <a href="" class="position-relative">
+              <span class="position-absolute m-3 text-white fw-bold border-0 category"></span>
+              <img class="card-img-top" src="//decodeage.com/cdn/shop/articles/Arthritis.webp">
+            </a>
+            <div class="card-body ps-0">
+              <a href="" class="anchor-text">
+                <h4>Managing Arthritis with Senolytics: A Comprehensive Guide</h4>
+              </a>
+              <p class="card-text">Senolytics like fisetin & quercetin show promise in arthritis management by targeting
+                & eliminating senescent cells, easing inflammation & potentially slowing disease progression.</p>
+              <a href="" class="text-decoration-none">
+                <p class="text-secondary publish-date" style="font-size: 90%;"><svg role="presentation" fill="none"
+                    focusable="false" stroke-width="1.2" width="16" height="16" class="mb-1" viewBox="0 0 16 16">
+                    <path d="M5.372 1v2.877M10.455 1v2.877" stroke="currentColor" stroke-linecap="round"></path>
+                    <path d="M14.338 7.632H1.497l.179-4.57 6.164-.448 6.497.448v4.57Z" fill="currentColor"
+                      fill-opacity=".12"></path>
+                    <path
+                      d="M1.224 12.073c.183 1.631 1.508 2.925 3.147 3.004a73.18 73.18 0 0 0 3.546.083c1.256 0 2.413-.028 3.546-.083 1.639-.079 2.964-1.374 3.146-3.004.124-1.099.225-2.224.225-3.37 0-1.147-.102-2.273-.225-3.371-.182-1.631-1.507-2.925-3.146-3.004a73.22 73.22 0 0 0-3.546-.083 73.22 73.22 0 0 0-3.546.083c-1.639.079-2.964 1.374-3.147 3.004C1.101 6.43 1 7.556 1 8.703c0 1.146.102 2.272.224 3.37ZM1.331 7.202h13.24"
+                      stroke="currentColor"></path>
+                  </svg> Feb 26, 2024</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4 grid-cols">
+          <div class="card border-0 ps-0" style="width: 25rem; background-color: inherit;">
+            <a href="" class="position-relative">
+              <span class="position-absolute m-3 text-white px-2 fw-bold border-0 category"></span>
+              <img class="card-img-top" src="//decodeage.com/cdn/shop/articles/Muscle_Ageing_1.webp">
+            </a>
+            <div class="card-body ps-0">
+              <a href="" class="anchor-text">
+                <h4>Exploring the Benefits of Ca-AKG, NMN, and Senolytics in Combatting Muscle Ageing
+                </h4>
+              </a>
+              <p class="card-text">Muscle ageing involves a decline in fibres, tissue replacement, and nervous system
+                changes. Chronic diseases like sarcopenia, myositis, myasthenia gravis, and genetic conditions worsen
+                it. Suppleme...</p>
+              <a href="" class="text-decoration-none">
+                <p class="text-secondary publish-date" style="font-size: 90%;"><svg role="presentation" fill="none"
+                    focusable="false" stroke-width="1.2" width="16" height="16" class="mb-1" viewBox="0 0 16 16">
+                    <path d="M5.372 1v2.877M10.455 1v2.877" stroke="currentColor" stroke-linecap="round"></path>
+                    <path d="M14.338 7.632H1.497l.179-4.57 6.164-.448 6.497.448v4.57Z" fill="currentColor"
+                      fill-opacity=".12"></path>
+                    <path
+                      d="M1.224 12.073c.183 1.631 1.508 2.925 3.147 3.004a73.18 73.18 0 0 0 3.546.083c1.256 0 2.413-.028 3.546-.083 1.639-.079 2.964-1.374 3.146-3.004.124-1.099.225-2.224.225-3.37 0-1.147-.102-2.273-.225-3.371-.182-1.631-1.507-2.925-3.146-3.004a73.22 73.22 0 0 0-3.546-.083 73.22 73.22 0 0 0-3.546.083c-1.639.079-2.964 1.374-3.147 3.004C1.101 6.43 1 7.556 1 8.703c0 1.146.102 2.272.224 3.37ZM1.331 7.202h13.24"
+                      stroke="currentColor"></path>
+                  </svg> Feb 22, 2024</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mx-0">
+        <div class="col-4 grid-cols">
+          <div class="card border-0 px-4 ms-4" style="background-color: rgb(218, 218, 218); max-width: 25rem;">
+            <div class="text-center card-body d-flex flex-column justify-content-center ps-0 gap-4">
+              <svg role="presentation" fill="none" focusable="false" stroke-width="1.2" width="24" height="24"
+                class="mx-auto icon icon-picto-envelope" viewBox="0 0 24 24">
+                <path
+                  d="M1.77 18.063a3.586 3.586 0 0 0 3.174 3.11c2.278.24 4.637.49 7.056.49 2.417 0 4.778-.252 7.056-.49a3.584 3.584 0 0 0 3.175-3.11c.243-1.96.483-3.987.483-6.063 0-2.074-.24-4.102-.483-6.063a3.586 3.586 0 0 0-3.175-3.112c-2.278-.236-4.639-.487-7.056-.487s-4.778.252-7.056.49a3.583 3.583 0 0 0-3.175 3.11c-.243 1.96-.483 3.988-.483 6.062 0 2.074.24 4.102.483 6.063Z"
+                  fill="currentColor" fill-opacity=".12" stroke="currentColor" stroke-linejoin="round"></path>
+                <path d="m1.817 5.493 8.06 6.356a3.428 3.428 0 0 0 4.245 0l8.06-6.356" stroke="currentColor"
+                  stroke-linejoin="round"></path>
+              </svg>
+              <a href="" class="anchor-text">
+                <h4 class="fw-bold">Newsletter</h4>
+              </a>
+              <p class="card-text">Write something about what your customers will receive by subscribing to your
+                newsletter.</p>
+              <div class="d-flex flex-row position-relative">
+                <input type="email"
+                  class="shadow-none opacity-50 p-3 pe-5 mx-2 form-control bg-transparent border border-secondary "
+                  id="InputEmail1">
+                <label class="opacity-50 place-holder position-absolute my-3 mx-4" style="cursor: auto;">E-mail</label>
+              </div>
+              <button class="subscribe-btn bg-warning text-dark d-flex flex-nowrap align-items-center px-4 py-3"
+                style="border: none; border-radius: 50px;">
+                <div class="mx-auto">
+                  <svg role="presentation" fill="none" focusable="false" stroke-width="1.2" width="17" height="17"
+                    class="mx-auto icon icon-picto-envelope" viewBox="0 0 24 24">
+                    <path
+                      d="M1.77 18.063a3.586 3.586 0 0 0 3.174 3.11c2.278.24 4.637.49 7.056.49 2.417 0 4.778-.252 7.056-.49a3.584 3.584 0 0 0 3.175-3.11c.243-1.96.483-3.987.483-6.063 0-2.074-.24-4.102-.483-6.063a3.586 3.586 0 0 0-3.175-3.112c-2.278-.236-4.639-.487-7.056-.487s-4.778.252-7.056.49a3.583 3.583 0 0 0-3.175 3.11c-.243 1.96-.483 3.988-.483 6.062 0 2.074.24 4.102.483 6.063Z"
+                      fill="currentColor" fill-opacity=".12" stroke="currentColor" stroke-linejoin="round"></path>
+                    <path d="m1.817 5.493 8.06 6.356a3.428 3.428 0 0 0 4.245 0l8.06-6.356" stroke="currentColor"
+                      stroke-linejoin="round"></path>
+                  </svg>
+                  <span class="fw-bold ms-2">Subscribe</span>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-4 grid-cols">
+          <div class="card border-0 ps-0" style="width: 25rem; background-color: inherit;">
+            <a href="" class="position-relative">
+              <span class="position-absolute m-3 text-white px-2 fw-bold border-0 category"></span>
+              <img class="card-img-top"
+                src="//decodeage.com/cdn/shop/articles/Can_NMN_help_with_Muscular_Dystrophy-transformed.webp">
+            </a>
+            <div class="card-body ps-0">
+              <a href="" class="anchor-text">
+                <h4>Can NMN help with Muscular Dystrophy?</h4>
+              </a>
+              <p class="card-text">NMN (Nicotinamide Mononucleotide) enhances muscle health and reduces degeneration by
+                boosting NAD+ levels within muscle cells. NAD+ levels also enhance mitochondrial activity, alleviating
+                energy s...</p>
+              <a href="" class="text-decoration-none">
+                <p class="text-secondary publish-date" style="font-size: 90%;"><svg role="presentation" fill="none"
+                    focusable="false" stroke-width="1.2" width="16" height="16" class="mb-1" viewBox="0 0 16 16">
+                    <path d="M5.372 1v2.877M10.455 1v2.877" stroke="currentColor" stroke-linecap="round"></path>
+                    <path d="M14.338 7.632H1.497l.179-4.57 6.164-.448 6.497.448v4.57Z" fill="currentColor"
+                      fill-opacity=".12"></path>
+                    <path
+                      d="M1.224 12.073c.183 1.631 1.508 2.925 3.147 3.004a73.18 73.18 0 0 0 3.546.083c1.256 0 2.413-.028 3.546-.083 1.639-.079 2.964-1.374 3.146-3.004.124-1.099.225-2.224.225-3.37 0-1.147-.102-2.273-.225-3.371-.182-1.631-1.507-2.925-3.146-3.004a73.22 73.22 0 0 0-3.546-.083 73.22 73.22 0 0 0-3.546.083c-1.639.079-2.964 1.374-3.147 3.004C1.101 6.43 1 7.556 1 8.703c0 1.146.102 2.272.224 3.37ZM1.331 7.202h13.24"
+                      stroke="currentColor"></path>
+                  </svg> Jan 29, 2024</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4 grid-cols">
+          <div class="card border-0 ps-0" style="width: 25rem; background-color: inherit;">
+            <a href="" class="position-relative">
+              <span class="position-absolute m-3 text-white px-0 fw-bold border-0 category"></span>
+              <img src="//decodeage.com/cdn/shop/articles/The_Impact_of_Space_Travel_on_Astronauts_Bone_Health_1.webp"
+                class="card-img-top">
+            </a>
+            <div class="card-body ps-0">
+              <a href="" class="anchor-text">
+                <h4>The Impact of Space Travel on Astronauts' Bone Health</h4>
+              </a>
+              <p class="card-text">The marvels of space travel come with their challenges, especially concerning the
+                human body's ability to adapt to the unique conditions of space. Recent research has shed light on how
+                space travel...</p>
+              <a href="" class="text-decoration-none">
+                <p class="text-secondary publish-date" style="font-size: 90%;"><svg role="presentation" fill="none"
+                    focusable="false" stroke-width="1.2" width="16" height="16" class="mb-1" viewBox="0 0 16 16">
+                    <path d="M5.372 1v2.877M10.455 1v2.877" stroke="currentColor" stroke-linecap="round"></path>
+                    <path d="M14.338 7.632H1.497l.179-4.57 6.164-.448 6.497.448v4.57Z" fill="currentColor"
+                      fill-opacity=".12"></path>
+                    <path
+                      d="M1.224 12.073c.183 1.631 1.508 2.925 3.147 3.004a73.18 73.18 0 0 0 3.546.083c1.256 0 2.413-.028 3.546-.083 1.639-.079 2.964-1.374 3.146-3.004.124-1.099.225-2.224.225-3.37 0-1.147-.102-2.273-.225-3.371-.182-1.631-1.507-2.925-3.146-3.004a73.22 73.22 0 0 0-3.546-.083 73.22 73.22 0 0 0-3.546.083c-1.639.079-2.964 1.374-3.147 3.004C1.101 6.43 1 7.556 1 8.703c0 1.146.102 2.272.224 3.37ZM1.331 7.202h13.24"
+                      stroke="currentColor"></path>
+                  </svg> Jan 11, 2024</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+      <div class="d-flex p-2 align-items-center"
+        style="border-radius: 100px; border: 1px solid; border-color: rgb(182, 180, 180);">
+        <button class="border-0" style="background: transparent;">
+          <i class="fa-solid fa-chevron-left px-2"></i>
+        </button>
+        <p class="my-auto py-0 px-2">1 / 2</p>
+        <button class="border-0" style="background: transparent;">
+          <i class="fa-solid fa-chevron-right px-2"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="d-grid p-5">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="fw-bolder" style="font-size: 300%;">Missing out on something!</h1><br>
+        </div>
+      </div>
+      <div class="row gap-4">
+        <div class="col-3 border rounded bg-light px-0">
+          <a href="" class="border-0 p-0 position-relative text-decoration-none">
+            <p class="fw-bold m-2 text-dark">Calcium AKG | Energy, Bone,...</p>
+            <img class="img-fluid position-absolute img-hover"
+              src="//cdn.shopify.com/s/files/1/0605/3445/6508/files/Calcium_AKG_Energy_Bone_Metabolic_Support_30_Capsules_-_Decode_Age-1150117.jpg">
+            <img class="img-fluid"
+              src="//cdn.shopify.com/s/files/1/0605/3445/6508/files/Calcium_AKG_Energy_Bone_Metabolic_Support_30_Capsules_-_Decode_Age-1570261.jpg">
+          </a>
+          <div class="d-flex justify-content-between p-2">
+            <div class="d-flex flex-column align-items-start">
+              <p class="d-inline border bg-primary text-light py-1 px-2 my-0"
+                style="border-radius: 100px; font-size: 80%">Save 7%</p>
+              <span class="text-primary">1,399.00 INR</span>
+              <span class="text-decoration-line-through">1,500.00 INR</span>
+            </div>
+            <button class="border-0 my-auto text-light bg-dark fw-bold p-3" style="border-radius: 100px;">Add to
+              Cart</button>
+          </div>
+        </div>
+
+        <div class="col-3 border rounded bg-light px-0">
+          <a href="" class="border-0 p-0 text-decoration-none">
+            <p class="fw-bold m-2 text-dark">Menopause Wellness Bundle</p>
+            <img class="img-fluid"
+              src="//cdn.shopify.com/s/files/1/0605/3445/6508/files/Menopause_Wellness_Bundle_-_Decode_Age-1150177.jpg">
+          </a>
+          <div class="d-flex justify-content-between p-2">
+            <div class="d-flex flex-column align-items-start">
+              <p class="d-inline border bg-primary text-light py-1 px-2 my-0"
+                style="border-radius: 100px; font-size: 80%">Save 8%</p>
+              <span class="text-primary">5,497.00 INR</span>
+              <span class="text-decoration-line-through">6,000.00 INR</span>
+            </div>
+            <button class="border-0 my-auto text-light bg-dark fw-bold p-3" style="border-radius: 100px;">Add to
+              Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
