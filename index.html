@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog page</title>
+  <title>Cognitive Health Section</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,83 +14,7 @@
 </head>
 
 <body>
-  <header class="fw-bold position-sticky">
-    <nav class="navbar navbar-expand-lg py-4">
-      <div class="container-fluid">
-        <a class="navbar-brand mx-5" href="#">Logo</a>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav d-flex gap-3 mx-5">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Gut Microbiome Test</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Shop
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Category
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Health Concerns
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Articles
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                About Us
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Help</a>
-            </li>
-          </ul>
-          <div class="nav-menu-icons d-flex ms-auto mx-5 gap-4">
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
-            <button><i class="fa-regular fa-user"></i></button>
-            <button><i class="fa-solid fa-cart-shopping"></i></button>
-          </div>
-        </div>
-      </div>
-    </nav>
-  </header>
+
   <section class="py-2 d-flex justify-content-around px-4" style="border: none;">
     <button class="d-flex align-items-center">
       <img src="https://cdn.shopify.com/s/files/1/0605/3445/6508/files/noun-target-6697003.svg?v=1715931729"
@@ -156,7 +80,7 @@
       <p>Get access to our latest news by signing up for our news letter</p>
       <div class="d-flex flex-row position-relative">
         <input type="email"
-          class="shadow-none opacity-50 p-3 pe-5 mx-2 form-control bg-transparent border border-secondary "
+          class="shadow-none opacity-50 p-3 pe-5 mx-2 form-control bg-transparent border border-secondary"
           id="InputEmail1">
         <label class="opacity-50 place-holder position-absolute my-3 mx-4" style="cursor: auto;">E-mail</label>
         <button class="submit-btn text-light d-flex flex-nowrap align-items-center px-4 py-2"
@@ -166,33 +90,37 @@
     </div>
 
     <div class="blog-sec d-flex justify-content-center">
-      <button>All Posts</button>
-      <button>Bone & Muscle Health</button>
-      <button>Cardiovascular Health</button>
-      <button>Cognitive Health</button>
-      <button>Diabetes</button>
-      <button>DNA Repair</button>
-      <button>Eye Health</button>
-      <button>Immunity</button>
+      <a href="" id="allPosts">All Posts</a>
+      <a href="" id="bone&MuscleHealth">Bone & Muscle Health</a>
+      <a href="" id="cardiovascularHealth">Cardiovascular Health</a>
+      <a href="" id="cognitiveHealth">Cognitive Health</a>
+      <a href="" id="diabetes">Diabetes</a>
+      <a href="" id="dnaRepair">DNA Repair</a>
+      <a href="" id="eyeHealth">Eye Health</a>
+      <a href="" id="immunity">Immunity</a>
     </div>
 
     <div class="d-grid card-title" style="background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 41%, rgb(224, 223, 220) 100%);">
       <div class="row border m-5"
         style="height:90vh; background-color: rgb(224, 224, 224); border-radius: 10px !important;">
-        <div class="d-flex col-12 p-0">
-          <img class="col-8 img-fluid p-0"
-            src="//decodeage.com/cdn/shop/articles/The_Impact_of_Ageing_on_Bones_and_Muscles_Insights_into_Joint_Care.webp"
-            alt="Bone and muscle health"
-            style="object-fit: cover; border-top-left-radius: 10px; border-bottom-left-radius: 10px;">
+        <div class="d-flex col-12 p-0 scale-hover">
+          <a href="" class="container-fluid p-0 overflow-hidden"
+            style="border-top-left-radius: 10px; border-bottom-left-radius: 10px;">
+            <img class="img-fluid h-100 object-fit-cover"
+              src="//decodeage.com/cdn/shop/articles/The_five_best_ways_to_keep_your_brain_healthy-01_1.webp"
+              alt="Bone and muscle health">
+          </a>
           <div class="col-4 d-flex vstack mx-5 align-items-start justify-content-center">
-            <p class="border px-2 py-1 fw-bold" style="background-color: rgb(202, 202, 201); border-radius: 100px;">Bone
-              & Muscle Health</p>
+            <p class="border px-2 py-1 fw-bold" style="background-color: rgb(202, 202, 201); border-radius: 100px;">
+              Cognitive Health</p>
             <a href="" class="text-decoration-none text-dark">
-              <h2 style="font-family: Metropolis-Regular, sans-serif;">The Impact of Ageing on Bones and Muscles: Insights into Joint Care</h2>
+              <h2 style="font-family: Metropolis-Regular, sans-serif;">The Five Best Ways to Keep Your Brain Healthy
+              </h2>
             </a>
-            <p class="fs-5">Have you ever wondered how ageing affects your bones and muscles? Ageing and bone health, as
-              well as ageing and muscle health, are critical topics that impact everyone's quality of life.</p><br>
+            <p class="fs-5">A healthy brain is crucial for emotional well-being, regulating mood, and managing stress
+              responses. Cognitive stimulation activities such as puzzles, learning new skills, and engaging in social
+              in...</p><br>
             <a href="" class="text-decoration-none">
               <p class="text-secondary publish-date" style="font-size: 90%;"><svg role="presentation" fill="none"
                   focusable="false" stroke-width="1.2" width="16" height="16" class="mb-1" viewBox="0 0 16 16">
@@ -202,24 +130,26 @@
                   <path
                     d="M1.224 12.073c.183 1.631 1.508 2.925 3.147 3.004a73.18 73.18 0 0 0 3.546.083c1.256 0 2.413-.028 3.546-.083 1.639-.079 2.964-1.374 3.146-3.004.124-1.099.225-2.224.225-3.37 0-1.147-.102-2.273-.225-3.371-.182-1.631-1.507-2.925-3.146-3.004a73.22 73.22 0 0 0-3.546-.083 73.22 73.22 0 0 0-3.546.083c-1.639.079-2.964 1.374-3.147 3.004C1.101 6.43 1 7.556 1 8.703c0 1.146.102 2.272.224 3.37ZM1.331 7.202h13.24"
                     stroke="currentColor"></path>
-                </svg> May 27, 2024</p>
+                </svg> Dec 4, 2023</p>
             </a>
           </div>
         </div>
       </div>
-      <div class="row ms-5">
-        <div class="card border-0 ps-0" style="width: 25rem; background-color: inherit;">
-          <a href="" class="position-relative">
-            <span class="position-absolute m-3 text-white fw-bold border-0 category"></span>
-            <img class="card-img-top" src="//decodeage.com/cdn/shop/articles/Myotonic_Dystrophy___The_Role_Of_NMN.webp">
+      <div class="row mx-5">
+        <div class="d-flex justify-content-center card border-0 scale-hover"
+          style="width: 25rem; background-color: inherit;">
+          <a href="" class="card-img-top position-relative overflow-hidden">
+            <span class="position-absolute m-3 text-white fw-bold category z-1"></span>
+            <img class="card-img-top" src="//decodeage.com/cdn/shop/articles/What_is_World_Mental_Health_Day-_1.webp">
           </a>
           <div class="card-body ps-0">
             <a href="" class="anchor-text">
-              <h4>Myotonic Dystrophy & The Role Of NMN</h4>
+              <h4>Why is World Mental Health Day 2023 Important</h4>
             </a>
-            <p class="card-text">What is Myotonic Dystrophy?
-              Myotonic dystrophy (DM) is a type of muscular dystrophy that impacts our muscles as well as several other
-              organs. It is a condition in which the muscle tissue weakens an...
+            <p class="card-text">
+              Why is World Mental Health Day 2023 Important
+              Mental health refers to the emotional, psychological, and mental well-being of an individual. Mental
+              health is critical for any individual’s success a...
             </p>
             <a href="" class="text-decoration-none">
               <p class="text-secondary publish-date" style="font-size: 90%;"><svg role="presentation" fill="none"
@@ -230,22 +160,23 @@
                   <path
                     d="M1.224 12.073c.183 1.631 1.508 2.925 3.147 3.004a73.18 73.18 0 0 0 3.546.083c1.256 0 2.413-.028 3.546-.083 1.639-.079 2.964-1.374 3.146-3.004.124-1.099.225-2.224.225-3.37 0-1.147-.102-2.273-.225-3.371-.182-1.631-1.507-2.925-3.146-3.004a73.22 73.22 0 0 0-3.546-.083 73.22 73.22 0 0 0-3.546.083c-1.639.079-2.964 1.374-3.147 3.004C1.101 6.43 1 7.556 1 8.703c0 1.146.102 2.272.224 3.37ZM1.331 7.202h13.24"
                     stroke="currentColor"></path>
-                </svg> Mar 5, 2024</p>
+                </svg> Nov 8, 2024</p>
             </a>
           </div>
         </div>
-        <div class="col-4 grid-cols">
-          <div class="card border-0 ps-0" style="width: 25rem; background-color: inherit;">
-            <a href="" class="position-relative">
-              <span class="position-absolute m-3 text-white fw-bold border-0 category"></span>
-              <img class="card-img-top" src="//decodeage.com/cdn/shop/articles/Arthritis.webp">
+        <div class="col-4 grid-cols mx-0 scale-hover">
+          <div class="card border-0" style="width: 25rem; background-color: inherit;">
+            <a href="" class="card-img-top position-relative overflow-hidden">
+              <span class="position-absolute m-3 text-white fw-bold category z-1"></span>
+              <img class="card-img-top" src="//decodeage.com/cdn/shop/articles/Blog_MAIN_IMAGE_Mental_Illness.webp">
             </a>
             <div class="card-body ps-0">
               <a href="" class="anchor-text">
-                <h4>Managing Arthritis with Senolytics: A Comprehensive Guide</h4>
+                <h4>Mental Illness Awareness Week 2023 - All You Need to Know</h4>
               </a>
-              <p class="card-text">Senolytics like fisetin & quercetin show promise in arthritis management by targeting
-                & eliminating senescent cells, easing inflammation & potentially slowing disease progression.</p>
+              <p class="card-text">
+                Your mental well-being is as important as your physical well-being and plays a critical role in your
+                success and healthy growth. Mental health refers to one’s emotional, psychological, and emotion...</p>
               <a href="" class="text-decoration-none">
                 <p class="text-secondary publish-date" style="font-size: 90%;"><svg role="presentation" fill="none"
                     focusable="false" stroke-width="1.2" width="16" height="16" class="mb-1" viewBox="0 0 16 16">
@@ -255,26 +186,27 @@
                     <path
                       d="M1.224 12.073c.183 1.631 1.508 2.925 3.147 3.004a73.18 73.18 0 0 0 3.546.083c1.256 0 2.413-.028 3.546-.083 1.639-.079 2.964-1.374 3.146-3.004.124-1.099.225-2.224.225-3.37 0-1.147-.102-2.273-.225-3.371-.182-1.631-1.507-2.925-3.146-3.004a73.22 73.22 0 0 0-3.546-.083 73.22 73.22 0 0 0-3.546.083c-1.639.079-2.964 1.374-3.147 3.004C1.101 6.43 1 7.556 1 8.703c0 1.146.102 2.272.224 3.37ZM1.331 7.202h13.24"
                       stroke="currentColor"></path>
-                  </svg> Feb 26, 2024</p>
+                  </svg> Nov 6, 2023</p>
               </a>
             </div>
           </div>
         </div>
 
-        <div class="col-4 grid-cols">
-          <div class="card border-0 ps-0" style="width: 25rem; background-color: inherit;">
-            <a href="" class="position-relative">
-              <span class="position-absolute m-3 text-white px-2 fw-bold border-0 category"></span>
-              <img class="card-img-top" src="//decodeage.com/cdn/shop/articles/Muscle_Ageing_1.webp">
+        <div class="col-4 grid-cols mx-0 scale-hover">
+          <div class="card border-0" style="width: 25rem; background-color: inherit;">
+            <a href="" class="card-img-top position-relative overflow-hidden">
+              <span class="position-absolute m-3 text-white fw-bold category z-1"></span>
+              <img class="card-img-top"
+                src="//decodeage.com/cdn/shop/articles/Meningitis_blog_MAIN_IMAGE_Understanding_Meningitis-_What_You_Need_To_Know_On_World_Meningitis_Day.webp">
             </a>
             <div class="card-body ps-0">
               <a href="" class="anchor-text">
-                <h4>Exploring the Benefits of Ca-AKG, NMN, and Senolytics in Combatting Muscle Ageing
+                <h4>Understanding Meningitis: What You Need to Know on World Meningitis Day
                 </h4>
               </a>
-              <p class="card-text">Muscle ageing involves a decline in fibres, tissue replacement, and nervous system
-                changes. Chronic diseases like sarcopenia, myositis, myasthenia gravis, and genetic conditions worsen
-                it. Suppleme...</p>
+              <p class="card-text">The three membranes comprising the dura mater, arachnoid mater, and pia mater
+                together form the meninges. The Meninges are primarily responsible for protecting the brain and the
+                spinal cord by form...</p>
               <a href="" class="text-decoration-none">
                 <p class="text-secondary publish-date" style="font-size: 90%;"><svg role="presentation" fill="none"
                     focusable="false" stroke-width="1.2" width="16" height="16" class="mb-1" viewBox="0 0 16 16">
@@ -291,9 +223,9 @@
         </div>
       </div>
 
-      <div class="row mx-0">
+      <div class="row mx-5">
         <div class="col-4 grid-cols">
-          <div class="card border-0 px-4 ms-4" style="background-color: rgb(218, 218, 218); max-width: 25rem;">
+          <div class="card border-0 px-4 ms-0" style="background-color: rgb(218, 218, 218); max-width: 25rem;">
             <div class="text-center card-body d-flex flex-column justify-content-center ps-0 gap-4">
               <svg role="presentation" fill="none" focusable="false" stroke-width="1.2" width="24" height="24"
                 class="mx-auto icon icon-picto-envelope" viewBox="0 0 24 24">
@@ -333,20 +265,20 @@
         </div>
 
 
-        <div class="col-4 grid-cols">
+        <div class="col-4 grid-cols scale-hover">
           <div class="card border-0 ps-0" style="width: 25rem; background-color: inherit;">
-            <a href="" class="position-relative">
-              <span class="position-absolute m-3 text-white px-2 fw-bold border-0 category"></span>
-              <img class="card-img-top"
-                src="//decodeage.com/cdn/shop/articles/Can_NMN_help_with_Muscular_Dystrophy-transformed.webp">
+            <a href="" class="position-relative overflow-hidden card-img-top">
+              <span class="position-absolute m-3 text-white fw-bold border-0 category z-1"></span>
+              <img class="card-img-top" src="//decodeage.com/cdn/shop/articles/world-alzheimer-day-1.webp">
             </a>
             <div class="card-body ps-0">
               <a href="" class="anchor-text">
-                <h4>Can NMN help with Muscular Dystrophy?</h4>
+                <h4>World Alzheimer's Day 2023</h4>
               </a>
-              <p class="card-text">NMN (Nicotinamide Mononucleotide) enhances muscle health and reduces degeneration by
-                boosting NAD+ levels within muscle cells. NAD+ levels also enhance mitochondrial activity, alleviating
-                energy s...</p>
+              <p class="card-text">
+
+                World Alzheimer's Day is observed annually on the 21st of September. It serves as a worldwide initiative
+                aimed at increasing awareness, challenging stigma, and dispelling misconceptions surroundi...</p>
               <a href="" class="text-decoration-none">
                 <p class="text-secondary publish-date" style="font-size: 90%;"><svg role="presentation" fill="none"
                     focusable="false" stroke-width="1.2" width="16" height="16" class="mb-1" viewBox="0 0 16 16">
@@ -356,26 +288,28 @@
                     <path
                       d="M1.224 12.073c.183 1.631 1.508 2.925 3.147 3.004a73.18 73.18 0 0 0 3.546.083c1.256 0 2.413-.028 3.546-.083 1.639-.079 2.964-1.374 3.146-3.004.124-1.099.225-2.224.225-3.37 0-1.147-.102-2.273-.225-3.371-.182-1.631-1.507-2.925-3.146-3.004a73.22 73.22 0 0 0-3.546-.083 73.22 73.22 0 0 0-3.546.083c-1.639.079-2.964 1.374-3.147 3.004C1.101 6.43 1 7.556 1 8.703c0 1.146.102 2.272.224 3.37ZM1.331 7.202h13.24"
                       stroke="currentColor"></path>
-                  </svg> Jan 29, 2024</p>
+                  </svg> Sep 21, 2023</p>
               </a>
             </div>
           </div>
         </div>
 
-        <div class="col-4 grid-cols">
+        <div class="col-4 grid-cols scale-hover">
           <div class="card border-0 ps-0" style="width: 25rem; background-color: inherit;">
-            <a href="" class="position-relative">
-              <span class="position-absolute m-3 text-white px-0 fw-bold border-0 category"></span>
-              <img src="//decodeage.com/cdn/shop/articles/The_Impact_of_Space_Travel_on_Astronauts_Bone_Health_1.webp"
+            <a href="" class="position-relative overflow-hidden card-img-top">
+              <span class="position-absolute m-3 text-white fw-bold border-0 category z-1"></span>
+              <img
+                src="//decodeage.com/cdn/shop/articles/Good_cholesterol_could_play_a_role_in_preventing_Alzheimer_s_disease.webp"
                 class="card-img-top">
             </a>
             <div class="card-body ps-0">
               <a href="" class="anchor-text">
-                <h4>The Impact of Space Travel on Astronauts' Bone Health</h4>
+                <h4>“Good cholesterol” could play a role in preventing Alzheimer’s disease</h4>
               </a>
-              <p class="card-text">The marvels of space travel come with their challenges, especially concerning the
-                human body's ability to adapt to the unique conditions of space. Recent research has shed light on how
-                space travel...</p>
+              <p class="card-text">Humans often learn about cholesterol at a much later age in relation to avoiding
+                heart disease.
+                What is cholesterol?
+                LDL, the so-called "bad cholesterol," can raise your risk of blocked arteries, h...</p>
               <a href="" class="text-decoration-none">
                 <p class="text-secondary publish-date" style="font-size: 90%;"><svg role="presentation" fill="none"
                     focusable="false" stroke-width="1.2" width="16" height="16" class="mb-1" viewBox="0 0 16 16">
@@ -385,31 +319,18 @@
                     <path
                       d="M1.224 12.073c.183 1.631 1.508 2.925 3.147 3.004a73.18 73.18 0 0 0 3.546.083c1.256 0 2.413-.028 3.546-.083 1.639-.079 2.964-1.374 3.146-3.004.124-1.099.225-2.224.225-3.37 0-1.147-.102-2.273-.225-3.371-.182-1.631-1.507-2.925-3.146-3.004a73.22 73.22 0 0 0-3.546-.083 73.22 73.22 0 0 0-3.546.083c-1.639.079-2.964 1.374-3.147 3.004C1.101 6.43 1 7.556 1 8.703c0 1.146.102 2.272.224 3.37ZM1.331 7.202h13.24"
                       stroke="currentColor"></path>
-                  </svg> Jan 11, 2024</p>
+                  </svg> Oct 11, 2022</p>
               </a>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="d-flex justify-content-center">
-      <div class="d-flex p-2 align-items-center"
-        style="border-radius: 100px; border: 1px solid; border-color: rgb(182, 180, 180);">
-        <button class="border-0" style="background: transparent;">
-          <i class="fa-solid fa-chevron-left px-2"></i>
-        </button>
-        <p class="my-auto py-0 px-2">1 / 2</p>
-        <button class="border-0" style="background: transparent;">
-          <i class="fa-solid fa-chevron-right px-2"></i>
-        </button>
       </div>
     </div>
 
     <div class="d-grid p-5">
       <div class="row">
         <div class="col-12 text-center">
-          <h1 class="fw-bolder" style="font-size: 300%;">Missing out on something!</h1><br>
+          <h1 class="fw-bolder" style="font-size: 350%;">Missing out on something!</h1><br>
         </div>
       </div>
       <div class="row gap-4">
@@ -425,10 +346,11 @@
             <div class="d-flex flex-column align-items-start">
               <p class="d-inline border bg-primary text-light py-1 px-2 my-0"
                 style="border-radius: 100px; font-size: 80%">Save 7%</p>
-              <span class="text-primary">1,399.00 INR</span>
-              <span class="text-decoration-line-through">1,500.00 INR</span>
+              <span class="text-primary">₹ 1,399.00</span>
+              <span class="text-decoration-line-through">₹ 1,500.00</span>
             </div>
-            <button class="border-0 my-auto text-light bg-dark fw-bold p-3" style="border-radius: 100px;">Add to
+            <button class="cart-btn border-0 my-auto text-light bg-dark fw-bold p-3" style="border-radius: 100px;">Add
+              to
               Cart</button>
           </div>
         </div>
@@ -443,15 +365,55 @@
             <div class="d-flex flex-column align-items-start">
               <p class="d-inline border bg-primary text-light py-1 px-2 my-0"
                 style="border-radius: 100px; font-size: 80%">Save 8%</p>
-              <span class="text-primary">5,497.00 INR</span>
-              <span class="text-decoration-line-through">6,000.00 INR</span>
+              <span class="text-primary">₹ 5,497.00</span>
+              <span class="text-decoration-line-through">₹ 6,000.00</span>
             </div>
-            <button class="border-0 my-auto text-light bg-dark fw-bold p-3" style="border-radius: 100px;">Add to
+            <button class="cart-btn border-0 my-auto text-light bg-dark fw-bold p-3" style="border-radius: 100px;">Add
+              to
               Cart</button>
           </div>
         </div>
       </div>
     </div>
+
+    <footer style="width: 100vw;" class="bg-white">
+      <div class="d-flex p-5 justify-content-between align-items-center" style="background-color: inherit;">
+        <p class="fs-2 fw-bold">Sign up for new stories and<br>personal offers</p>
+        <div class="d-flex flex-column gap-4">
+          <div class="position-relative d-flex align-items-center">
+            <input type="email" size="40"
+              class="shadow-none p-3 pe-5 mx-2 form-control bg-transparent border border-secondary" id="InputEmail1">
+            <label class="opacity-50 position-absolute mx-4" style="cursor: auto;">E-mail</label>
+            <button
+              class="me-2 submit-arrow border-0 rounded-circle d-flex align-items-center justify-content-center position-absolute"
+              style="right: 10px; top: 50%; transform: translateY(-50%); width: 25px; height: 25px;">
+              <svg role="presentation" focusable="false" width="12" height="12"
+                class="icon icon-chevron-right-small reverse-icon" viewBox="0 0 5 8">
+                <path d="M0.75 7l3-3-3-3" fill="none" stroke="currentColor" stroke-width="1.5"></path>
+              </svg>
+            </button>
+          </div>
+
+          <div class="d-flex gap-4 fs-3 mx-2 social-links">
+            <a href="" style="color: inherit;">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="" style="color: inherit;">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="" style="color: inherit;">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="" style="color: inherit;">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+          </div>
+        </div>
+      </div>
+      <hr class="mb-0 p-1 mx-auto" style="width: 90%;">
+    </footer>
+
 
   </main>
 

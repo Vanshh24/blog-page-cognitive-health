@@ -36,8 +36,10 @@ section button {
     background-color: transparent;
 }
 
-.blog-sec button {
-    border: none;
+.blog-sec a {
+    outline: none;
+    color: black;
+    text-decoration: none;
     background: transparent;
     padding-inline: 20px;
     padding-block: 16px;
@@ -45,12 +47,12 @@ section button {
     opacity: 50%;
 }
 
-.blog-sec button:hover {
+.blog-sec a:hover {
     opacity: 100%;
     transition: opacity .2s linear;
 }
 
-.blog-sec button:focus {
+.blog-sec a:focus {
     background-color: white;
     opacity: 100%;
 }
@@ -62,7 +64,7 @@ section button {
 }
 
 input:focus + .place-holder {
-    top: -10px;
+    top: -10%;
     font-size: 70%;
     transition: .2s;
 }
@@ -110,7 +112,7 @@ input:focus + .place-holder {
 }
 
 .category::before {
-    content: "Bone & Muscle Health";
+    content: "Cognitive Health";
     border-radius: 20px;
     padding-block: 2px;
     padding-inline: 5px;
@@ -129,4 +131,27 @@ input:focus + .place-holder {
     font-weight: bolder;
     font-size: x-large;
     line-height: 110%;
+}
+
+.scale-hover:hover img {
+    scale: 110%;
+    transition: .8s ease-out;
+}
+
+.cart-btn:hover {
+    background-color: rgb(75, 74, 74) !important;
+    transition: .2s;
+}
+
+.submit-arrow {
+    right: 30px;
+    top: 40%;
+    transform: translateY(-50%);
+    background-color: rgb(233, 230, 230);
+}
+
+.submit-arrow:hover {
+    color: white;
+    background-color: black;
+    transition: .3s;
 }
