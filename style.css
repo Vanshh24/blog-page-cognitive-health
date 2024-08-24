@@ -64,7 +64,7 @@ section button {
 }
 
 input:focus + .place-holder {
-    top: -10%;
+    top: -1%;
     font-size: 70%;
     transition: .2s;
 }
